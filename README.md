@@ -22,3 +22,13 @@ foamToVTK
 or Simply run the `./Allrun` script.
 
 Please run `./Allclean` before each run to clean the previous results.
+
+
+### Visualize the results
+
+#### DNS simulation
+![](https://raw.githubusercontent.com/chunyang-w/cylinderFlow/main/assets/DNS.gif)
+
+
+#### RANS simulation
+![](https://raw.githubusercontent.com/chunyang-w/cylinderFlow/main/assets/RANS.gif)
