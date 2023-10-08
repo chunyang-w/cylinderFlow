@@ -1,0 +1,44 @@
+.DS_Store
+
+# Ignore all time directories (assuming they're numeric names)
+[0-9]*
+
+# Include the '0' original directory
+![0]/
+[0]/*/
+# Exclude data in the '0' directory
+[0]/*.*
+
+# Ignore typical OpenFOAM output and temporary directories
+processor*
+constant/polyMesh/
+constant/*.gz
+constant/extendedFeatureEdgeMesh/
+*.obj
+*.foam
+
+# Ignore log files
+log.*
+logs/*
+
+# Backup and temporary files
+*~
+*.bak
+*.old
+
+# Vim and Emacs temporary files
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+*.swp
+*.swo
+*.tmp
+*.save
+
+# IDE files (e.g., VS Code)
+.vscode/
+.vscode-server/
+
+VTK/
+dynamicCode/
+.bash_history
