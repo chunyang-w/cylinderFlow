@@ -17,7 +17,7 @@ convertToMeters 1;
 
 small_r 0.05;
 
-length 1;
+length 2;
 halfl #calc "0.5*$length";
 
 angle 45;
