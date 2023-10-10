@@ -38,13 +38,17 @@ Please run `./Allclean` before each run to clean the previous results.
 
 The computational domain is devided into 4 subdomains. With finer mesh near the cylinder and the wall to provide more accurate results.
 
-![](https://raw.githubusercontent.com/chunyang-w/cylinderFlow/main/assets/mesh.png)
+<div align="center">
+<img src="https://raw.githubusercontent.com/chunyang-w/cylinderFlow/main/assets/mesh.png" alt="mesh" style="zoom:20%;" />
+</div>
 
 ### DNS simulation
 
 The following animation shows the velocity field of the DNS simulation. The intial velocity is 1.0 m/s. The diameter of the cylinder is 0.1 m.
 
-![](https://raw.githubusercontent.com/chunyang-w/cylinderFlow/main/assets/DNS.gif)
+<div align="center">
+<img src="https://raw.githubusercontent.com/chunyang-w/cylinderFlow/main/assets/DNS.gif" alt="mesh" style="zoom:50%;" />
+</div>
 
 ### P.S.
 
