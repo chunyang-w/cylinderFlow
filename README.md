@@ -39,7 +39,7 @@ Please run `./Allclean` before each run to clean the previous results.
 The computational domain is devided into 4 subdomains. With finer mesh near the cylinder and the wall to provide more accurate results.
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/chunyang-w/cylinderFlow/main/assets/mesh.png" alt="mesh" width="20%;" />
+<img src="https://raw.githubusercontent.com/chunyang-w/cylinderFlow/main/assets/mesh.png" alt="mesh" width="40%;" />
 </div>
 
 ### DNS simulation
