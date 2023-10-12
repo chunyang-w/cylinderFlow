@@ -21,13 +21,18 @@ boundaryField
 {
     inlet
     {
-        type            fixedValue;
-        value           uniform (1 0 0);
+        type            uniformFixedValue;
+        uniformValue    table ((0 (1 0 0)) (5 (10 0 0)));
     }
 
     outlet
     {
         type            zeroGradient;
+    }
+
+    cylinder
+    {
+        type            noSlip;
     }
 
     walls
