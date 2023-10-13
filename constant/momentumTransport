@@ -15,5 +15,15 @@ FoamFile
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 simulationType laminar;
+/* simulationType RAS; */
+
+/* RAS
+{
+    model           kEpsilon;
+
+    turbulence      on;
+
+    printCoeffs     on;
+} */
 
 // ************************************************************************* //
